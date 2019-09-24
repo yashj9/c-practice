@@ -1,0 +1,36 @@
+#include<stdio.h>
+main()
+{
+	int a, b=1, c, d=1, e;
+	for(a=1;a<=9;a++)
+	{
+		if(a>5)
+		{
+			c=10-a;
+		}
+		else
+		{
+			c=a;
+		}
+		for(b=d;b>0;b--)
+		{
+			if(b%2==1)
+			{
+				printf("%d",c);
+			}
+			else
+			{
+				printf("*");
+			}
+		}
+		if(a<5)
+		{
+			d=d+2;
+		}
+		else
+		{
+			d=d-2;
+		}
+		printf("\n");
+	}
+}
